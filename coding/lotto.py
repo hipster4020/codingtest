@@ -1,34 +1,37 @@
-# my code
-def solution(lottos, win_nums):
-    answer = [0] * 2
-    dic_win = {v : k+1 for k, v in enumerate(range(6, 0, -1))}
-    max = 0
-    min = 0
+# # my code
+# def solution(lottos, win_nums):
+#     answer = [0] * 2
+#     dic_win = {v : k+1 for k, v in enumerate(range(6, 0, -1))}
+#     max = 0
+#     min = 0
 
-    for lotto in lottos:
-        if lotto in win_nums:
-            min += 1
-        if lotto == 0:
-            max += 1
+#     for lotto in lottos:
+#         if lotto in win_nums:
+#             min += 1
+#         if lotto == 0:
+#             max += 1
 
-    answer[1] = dic_win[1] if min == 0 else dic_win[min]
-    answer[0] = dic_win[1] if max == 0 else dic_win[min + max]
-    if max == 0 and min != 0:
-        answer[0] = dic_win[min]
+#     answer[1] = dic_win[1] if min == 0 else dic_win[min]
+#     answer[0] = dic_win[1] if max == 0 else dic_win[min + max]
+#     if max == 0 and min != 0:
+#         answer[0] = dic_win[min]
 
-    return answer
+#     return answer
 
 # best code
-# def solution(lottos, win_nums):
-#     rank=[6,6,5,4,3,2,1]
+def solution(lottos, win_nums):
+    rank=[6,6,5,4,3,2,1]
 
-#     cnt_0 = lottos.count(0)
-#     answer = 0
-#     for x in win_nums:
-#         if x in lottos:
-#             answer += 1
-#     print([rank[cnt_0 + answer],rank[answer]])
-#     return rank[cnt_0 + answer],rank[answer]
+    cnt_0 = lottos.count(0)
+    
+    answer = 0
+    for x in win_nums:
+        if x in lottos:
+            answer += 1
+    print(f"cnt_0 : {cnt_0}")
+    print(f"answer : {answer}")
+    print([rank[cnt_0 + answer],rank[answer]])
+    return rank[cnt_0 + answer],rank[answer]
 
 if __name__ == '__main__':
     #lottos = [44, 2, 3, 4, 32, 25]
