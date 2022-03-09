@@ -12,6 +12,7 @@ def solution(id_list, report, k):
     return answer
 
 if __name__ == '__main__':
+    url = "https://programmers.co.kr/learn/courses/30/lessons/92334"
     id_list = ["muzi", "frodo", "apeach", "neo"]
     report = ["muzi frodo","apeach frodo","frodo neo","muzi neo","apeach muzi"]
     k = 2

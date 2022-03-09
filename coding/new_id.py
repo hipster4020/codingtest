@@ -35,5 +35,6 @@ def solution(new_id):
 
 
 if __name__ == "__main__":
+    url = "https://programmers.co.kr/learn/courses/30/lessons/72410"
     solution("...!@BaT#*..y.abcdefghijklm")
     #solution(".1.")
