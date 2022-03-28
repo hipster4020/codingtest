@@ -42,7 +42,6 @@ def solution(s):
 
     return answer
 
-    return answer
 if __name__ == "__main__":
     url = "https://programmers.co.kr/learn/courses/30/lessons/60057#"
     s = "aabbaccc"
