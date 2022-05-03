@@ -2,4 +2,5 @@ __pycache__/
 sklearn/__pycache__/
 sklearn/config.py
 torch/.ipynb_checkpoints/
+torch/neural_network/.ipynb_checkpoints/
 sklearn/.ipynb_checkpoints/classifier-checkpoint.ipynb
