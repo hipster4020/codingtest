@@ -12,4 +12,6 @@ torch/*pytorch_deeplearning/4.WordEmbedding/.ipynb_checkpoint
 torch/*pytorch_deeplearning/4.WordEmbedding/.vector_cache
 torch/*pytorch_deeplearning/5.RNN/.ipynb_checkpoints
 torch/*pytorch_deeplearning/6.LSTM/.ipynb_checkpoints/
-torch/*pytorch_deeplearning/7.Seq2Seq/.ipynb_checkpoints
+torch/*pytorch_deeplearning/7.Seq2Seq/.ipynb_checkpoint
+codingtest/.ipynb_checkpoints
+codingtest/dfs_bfs/.ipynb_checkpointss
